@@ -1,0 +1,40 @@
+<!--
+const
+재선언 x
+재할당 x
+블록범위 ㅇ
+-->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>dsfafasfasfa</h2>
+        <p id="demo"></p>
+        <script>
+            try{
+                const PI = 3.141592653589793;
+                PI = 3.14;
+                }
+            catch(err){
+                document.getElementById("demo").innerHTML = err;
+            }
+        </script>
+    </body>
+</html>
+
+
+<!--
+    옳은 방법
+    const PI = 3.14159265359;
+
+    틀린방법
+    const PI;
+    PI = 3.14159265359;
+    
+    
+    언제사용하는지
+    새로운 배열
+    새로운 객체
+    새로운 기능
+    새로운 정규 표현식
+-->
